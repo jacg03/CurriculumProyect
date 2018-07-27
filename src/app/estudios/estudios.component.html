@@ -1,0 +1,9 @@
+<div class="container row py-5 pl-5 col-md-12 text-center" style=" height: 84vh; overflow: scroll;">
+  <div class="card py-5 px-5 col-md-4 my-3" *ngFor="let item of items" style="height: 400px;">
+    <img class="card-img-top img-responsive" src="{{item.url}}" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">{{item.title}}</h5>
+      <p class="card-text">{{item.body}}</p>
+    </div>
+  </div>
+</div>
